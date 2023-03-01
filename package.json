@@ -1,0 +1,17 @@
+{
+  "name": "address-utils",
+  "version": "1.0.0",
+  "description": "address utils",
+  "main": "index.js",
+  "repository": "https://github.com/ryley-o/simple-ens-resolver.git",
+  "author": "ryley-o <30364988+ryley-o@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "csv-addr-to-checksum": "node ./csv-addr-to-checksum.js"
+  },
+  "dependencies": {
+    "csv": "^6.2.7",
+    "ethers": "^6.0.8"
+  },
+  "type": "module"
+}
